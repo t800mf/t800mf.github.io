@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phos Website</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #111;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.7);
+  border-bottom: 1px solid #eee;
+  padding: 18px 40px;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+section {
+  min-height: 100vh;
+  padding: 140px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* HERO */
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+
+
+
+
+background: #9da8bd;
+  background: linear-gradient(135deg,rgba(170, 180, 190, 1) 0%, rgba(110, 120, 130, 1) 100%);
+
+
+
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  
+
+
+background: #9da8bd;
+  background: linear-gradient(135deg,rgba(157, 168, 189, 1) 0%, rgba(89, 109, 125, 1) 100%);
+
+
+  transform: translateY(-3px);
+}
+
+/* PLACEHOLDER IMAGE */
+
+.placeholder-img {
+  /*width: 50%; */
+  max-width: 1000px;
+  height: 500px;
+background: #dedede;
+background: linear-gradient(135deg, rgba(222, 222, 222, 1) 0%, rgba(156, 156, 156, 1) 100%);
+  border-radius: 30px;
+  margin-top: 60px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+  transition: transform 0.6s ease;
+}
+
+.placeholder-img:hover {
+  transform: scale(1.02);
+}
+
+/* DARK SECTION */
+
+.dark {
+  background: #ffffff;
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgb(15, 15, 15) 3%);
+  color: #fff;  
+}
+
+.dark p {
+  color: #aaa;
+}
+
+.dark .placeholder-img {
+  background: linear-gradient(145deg, #2a2a2a, #1c1c1c);
+}
+
+/* SCROLL ANIMATION */
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* FOOTER */
+
+footer {
+  padding: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  border-top: 1px solid #eee;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Phos</div>
+    <ul>
+      <li><a href="#overview">Start</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#buy">Kaufen</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero fade-section" id="overview">
+  <h1>Phos</h1>
+  <p>Wir machen eure Nacht hell :)</p>
+  <button class="button">Jetzt entdecken</button>
+  <!--<div class="placeholder-img"></div>-->
+<!--<img class="placeholder-img" src="https://png.pngtree.com/png-vector/20240805/ourmid/pngtree-high-quality-12-watt-led-bulb-for-indoor-use-png-image_13386876.png" alt="askldjflaksjdfjas"> -->
+  <img class="placeholder-img" src="images/Photo-2026-04-17-10-18-53_7522.PNG">	
+</section>
+
+<section class="fade-section" id="features">
+  <h1>Bewegungssensor</h1>
+<p>________________________________</p>
+<p>-</p>
+  <p>„Phos“ ist eine moderne und intelligente Lampe mit integrierter Bewegungserkennung, die sich automatisch an die Position des Nutzers anpasst.</p>
+  <p>Durch den Einsatz von präziser Sensortechnologie erkennt die Lampe Bewegungen zuverlässig und richtet das Licht gezielt dorthin aus, wo es benötigt wird. Dies sorgt für einen maximalen Komfort und eine effiziente Nutzung im Alltag.
+</p>
+  <img class="placeholder-img" src="images/Photo-2026-04-17-10-18-31_7517.PNG" alt="sakjdhfjahsdk">
+  <!--<div class="placeholder-img">https://cdn-icons-png.freepik.com/256/18398/18398403.png?semt=ais_white_label</div>-->
+</section>
+
+<section class="dark fade-section">
+  <h1>Energieeffizienz</h1>
+  <p>_____________________________</p>
+<p>-</p>
+  <p>Ein besonderer Fokus liegt auf der Energieeffizienz. „Phos“ verbraucht nur wenig Strom und bietet somit eine umweltfreundliche Lösung für moderne Haushalte. 
+</p>
+  <!--<img class="placeholder-img" src="https://tangrams.readthedocs.io/en/main/images/amb-dif-spe.png" alt="dsahfhaskjdhfksa">-->
+  <img class="placeholder-img" src="images/Photo-2026-04-17-10-18-37_7518(1)(1)(1).PNG" alt="dsahfhaskjdhfksa">
+  <!--<div class="placeholder-img"></div>-->
+</section>
+
+<section class="fade-section" id="buy">
+  <h1>Jetzt kaufen</h1>
+  <p>[hier kommt preis rein] / [noch keine verfügbarkeit]</p>
+  <p>-</p>
+  <button class="button">Jetzt kaufen</button>
+</section>
+
+<footer>
+  © 2026 Phos. Alle Rechte vorbehalten.
+  <p>Email: Phos.Wirtschaft@gmail.com</p>
+  
+</footer>
+
+<script>
+const faders = document.querySelectorAll('.fade-section');
+
+const appearOptions = {
+  threshold: 0.2
+};
+
+const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('visible');
+    observer.unobserve(entry.target);
+  });
+}, appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
+</script>
+
+</body>
+</html>
