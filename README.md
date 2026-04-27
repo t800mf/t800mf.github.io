@@ -1,10 +1,10 @@
-<a>Instagram Account: Phos_Buisiness</a>
-<a>Email: Phos.Wirtschaft@gmail.com</a>
+<p>Instagram Account: Phos_Buisiness</p>
+<p>Email: Phos.Wirtschaft@gmail.com</p>
 Website Link: <a href="https://t800mf.github.io/">Website Phos</a>
-<a>logo:</a>
+<p>logo:</p>
 <img width="1681" height="668" alt="Screenshot 2026-04-27 221505" src="https://github.com/user-attachments/assets/0cb275e9-1dd9-42ae-92d9-97eef4fe4b7e" />
 
-<a>bilder:</a>
+<p>bilder:</p>
 <img width="1920" height="1080" alt="Photo-2026-04-17-10-18-53_7522" src="https://github.com/user-attachments/assets/1f3abf55-25ab-447c-86d0-881ee27594de" />
 
 <img width="1324" height="740" alt="Photo-2026-04-17-10-18-51_7521" src="https://github.com/user-attachments/assets/76dbc4a6-2ae0-4b95-bc11-8563278e65b6" />
